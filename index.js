@@ -7,7 +7,7 @@ import Header from './src/components/header';
 // jsx: a dialect of javascript that tells rective native what content to render.
 const App = () => (
     <View style={styles.container}>
-        <Header />
+        <Header headerText={ 'headerText from index.js' } />
     </View>   
 );
 
@@ -17,19 +17,7 @@ AppRegistry.registerComponent('albums', () => App);
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-      backgroundColor: '#F5FCFF',
-    },
-    welcome: {
-      fontSize: 20,
-      textAlign: 'center',
-      margin: 10,
-    },
-    instructions: {
-      textAlign: 'center',
-      color: '#333333',
-      marginBottom: 5,
-    },
+       backgroundColor: '#F5FCFF'
+    }
+
   });
