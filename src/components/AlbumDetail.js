@@ -31,7 +31,9 @@ const AlbumDetail = ({ album }) => {
             </CardSection>
 
             <CardSection>
-                <Button onMyPress={() => Linking.openURL(url)} />
+                <Button onMyPress={() => Linking.openURL(url)} >
+                    Buy Now
+                </Button>
             </CardSection>
 
         </Card>
