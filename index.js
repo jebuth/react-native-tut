@@ -19,6 +19,7 @@ AppRegistry.registerComponent('albums', () => App);
 
 const styles = StyleSheet.create({
     container: {
-       backgroundColor: '#FFF'
+       backgroundColor: '#FFF',
+       flex: 1 // for scrollview
     }
   });
