@@ -4,9 +4,7 @@ import { Text, View } from 'react-native';
 
 // make a component
 const Header = (props) => {
-
     const { fontStyle, viewStyle } = styles;
-
     return (
         <View style={viewStyle}>
             <Text style={fontStyle}>{ props.headerText }</Text>
@@ -21,9 +19,9 @@ const styles = {
         alignItems: 'center',
         height: 60,
         paddingTop: 30,
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.2,
+        // shadowColor: '#000',
+        // shadowOffset: { width: 0, height: 2 },
+        // shadowOpacity: 0.2,
         elevation: 2,
         position: 'relative'
     },
